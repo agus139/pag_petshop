@@ -3,119 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+
+<!--FONT-->
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+<link rel="stylesheet" href="style/style.css">
+
+    <title>Petshop</title>
 </head>
 <body>
     <header>
-        <div>
-            <p>Grandes ofertas en comederos</p>
-            <ul>
-                <li>Español</li>
-                <li>ARG$</li>
+        <div class="header1" >
+            <p class="p-header1" >Grandes ofertas en comederos</p>
+            <ul class="li-header1" >
+                <li class="item">Español</li>
+                <li class="item">ARG$</li>
             </ul>
         </div>
+        <section class="header-container" >
+            <div>
+                <img src="imagenes/Logo-2.png" alt="logo" class="logo" >
+            </div>
 
-        <div>
-            <img src="imagenes/Logo-2.png" alt="logo">
-        </div>
-
-        <nav>
-            <ul>
-                <li>Categorías</li>
-                <li>Pets</li>
-                <li>Nosotros</li>
-                <li>Contactanos</li>
-            </ul>
-        </nav>
+            <nav>
+                    <ul class="header-nav">
+                        <li class="item1" >Categorías</li>
+                        <li class="item1">Pets</li>
+                        <li class="item1">Nosotros</li>
+                        <li class="item1">Contactanos</li>
+                    </ul>
+            </nav>
+        </section>
     </header>
     <main>
 
-        <section>
-            <div>
-                <img src="imagenes/main.png" alt="plato de comida de perros con comida y con cuatro huesitos">
+            <div  >
+                <img class="img-plato" src="imagenes/main.png" alt="plato de comida de perros con comida y con cuatro huesitos">
             </div>
-            <div>
-                <p>¡Es un placer tenerte aquí!</p>
-                <p>¡Comederos en descuento!</p>
-                <button>COMEDEROS</button>
+            
+        <section>
+            <div class="p-img-container" >
+                <p class="p-img" >¡Es un placer tenerte aquí!</p>
+                <p class="p-img1">¡Comederos en descuento!</p>
+                <button class="img-button" >COMEDEROS</button>
             </div>
         </section>
 
-        <section>
-            <div>
-                <img src="imagenes/huella.png" alt="huella de un perro">
-            </div>
-            <div>
-                <h1>
-                    Productos Destacados
-                </h1>
-                <ul>
-                    <li>Comederos</li>
-                    <li>Accesorios</li>
-                    <li>Comida</li>
+        <section  >
+            <div class="img-huella-cont" >
+                <img  class="img-huella" src="imagenes/huella.png" alt="huella de un perro">
+                <h1 class="h1-prod" >Productos Destacados</h1>
+                <ul class="lista-prod" >
+                    <li class="item item1">Comederos</li>
+                    <li class="item item1">Accesorios</li>
+                    <li class="item item1">Comida</li>
                 </ul>
             </div>
         </section>
 
-            <section>
-                <div>
-                    <img src="imagenes/churrasquito.png" alt="tres juguetes para perro con forma de churrasco">
-                    <p>Juguete Churrasquito</p>
-                    <p>$150</p>
+            <section class="container-ventas" >
+                <div class="mini-container-ventas">
+                    <img class="img1" src="imagenes/churrasquito.png" alt="tres juguetes para perro con forma de churrasco">
+                    <p class="p-ventas" >Juguete Churrasquito</p>
+                    <p class="p-ventas p-ventas1">$150</p>
                 </div>
-                <div>
-                    <img src="imagenes/comedero.png" alt="plato de perro con comida de perro">
-                    <p>Comedero para perro</p>
-                    <p>$250</p>
+                <div class="mini-container-ventas">
+                    <img class="img1" src="imagenes/comedero.png" alt="plato de perro con comida de perro">
+                    <p class="p-ventas">Comedero para perro</p>
+                    <p class="p-ventas p-ventas1">$250</p>
                 </div>
-                <div></div>
-                    <img src="imagenes/Huesito.png" alt="jueguetes de perro con forma de huesitos">
-                    <p>Juguete Huesito</p>
-                    <p>$650</p>
-                </div>
-            </section>
-
-            <section>
-                <div>
-                    <h2>
-                        Contáctanos
-                    </h2>
-                    <form action="">
-                        <input type="text" placeholder="Nombre y Apellido">
-                        <input type="text" placeholder="Ingresá tu correo electrónico">
-                        <input type="text" placeholder="Teléfono">
-                        <button>Resetear</button>
-                        <button>Enviar</button>
-                    </form>
+                <div class="mini-container-ventas">
+                    <img class="img2" src="imagenes/Huesito.png" alt="tres juguetes para perro con forma de churrasco">
+                    <p class="p-ventas p-ventas2">Juguete Huesito</p>
+                    <p class="p-ventas p-ventas2 p-ventas1">$650</p>
                 </div>
             </section>
 
-            <section>
+            <section class="container-contacto" >
                 <div>
-                    <img src="imagenes/correo.png" alt="se muestra un sobre de envío de mensaje">
-                    <p>Suscríbete para más novedades</p>
-                </div>
-                <div>
-                    <form action="">
-                        <input type="text" placeholder="Ingresá tu correo electronico">
-                        <button>Suscribirme</button>
+                    <h2 class="h2-contacto" >Contáctanos</h2>
+                    <form  class="form-contacto" action="">
+                        <input class="item-form" type="text" placeholder="Nombre y Apellido">
+                        <input class="item-form" type="text" placeholder="Ingresá tu correo electrónico">
+                        <input class="item-form" type="text" placeholder="Teléfono">
                     </form>
                 </div>
+                <div class="container-button-form" >
+                    <button class="button-form button-form1" >Resetear</button>
+                    <button class="button-form button-form2">Enviar</button>
+                </div>
             </section>
+
+                <div class="container-img-suscripcion" >
+                    <img  class="img-suscripcion" src="imagenes/correo.png" alt="se muestra un sobre de envío de mensaje">
+                    <p class="p-suscripcion" >Suscríbete para más novedades</p>
+                    <form  action="">
+                        <input class="input-suscripcion" type="text" placeholder="Ingresá tu correo electronico">
+                    </form>
+                    <button class="boton-suscripcion" >Suscribirme</button>
+                </div>
 
     </main>
     <footer>
-        <img src="imagenes/ubicacion.png" alt="icono de ubicación">
-            <p>Localidad</p>
-            <p>Calle - provincia</p>
-        <img src="imagenes/telefono.png" alt="icono de teléfono">
-            <p>Teléfono</p>
-            <p>Número de teléfono</p>
-        <img src="imagenes/mail.png" alt="icono de correo electrónico">
-            <p>Correo Electrónico</p>
-            <p>Dirección de correo</p>
-            <img src="imagenes/Logo-3.png" alt="">
-            <p>Todos los derechos reservados Front End</p>
+            <div class="container-loc container-footer" >
+                <img src="imagenes/ubicacion.png" alt="icono de ubicación">
+                <p class="p-loc1 localidad" >Localidad</p>
+                <p class="p-loc calle">Calle - provincia</p>
+            </div>
+            <div class="container-tel container-footer">
+            <img src="imagenes/telefono.png" alt="icono de teléfono">
+                <p class="p-loc1 tel">Teléfono</p>
+                <p class="p-loc num-tel">Número de teléfono</p>
+            </div>
+            <div class="container-mail container-footer">
+            <img src="imagenes/mail.png" alt="icono de correo electrónico">
+                <p class="p-loc1 correo">Correo Electrónico</p>
+                <p class="p-loc direcc-correo">Dirección de correo</p>
+            </div>
+            <div  >
+                <img class="container-logo-footer" src="imagenes/Logo-3.png" alt="">
+                <p class="p-derechos" >Todos los derechos reservados Front End</p>
+            </div>
     </footer>
 </body>
 </html>
